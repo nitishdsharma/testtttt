@@ -34,4 +34,3 @@ jobs:
         push: true
         tags: |
           devopstest/flaskapp:${{ steps.date.outputs.date }}
-          devopstest/flaskapp:latest
