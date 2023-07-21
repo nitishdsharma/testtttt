@@ -33,4 +33,5 @@ jobs:
         file: ./flask-app/Dockerfile
         push: true
         tags: |
-          devopstest/flaskapp:${{ steps.date.outputs.date }}
+          nitishsharmasre/flaskapp:${{ steps.date.outputs.date }}
+          nitishsharmasre/flaskapp:latest
