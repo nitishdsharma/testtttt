@@ -30,6 +30,7 @@ jobs:
       uses: docker/build-push-action@v4
       with:
         context: .
+        file: ./flask-app/Dockerfile
         push: true
         tags: |
           devopstest/flaskapp:${{ steps.date.outputs.date }}
